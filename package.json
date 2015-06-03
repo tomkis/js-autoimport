@@ -1,0 +1,35 @@
+{
+  "name": "js-autoimport",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "atom autocomplete-plus provider which allows automatic ES6 modules",
+  "keywords": [
+    "javascript",
+    "atom",
+    "autocomplete",
+    "autocomplete-plus",
+    "provider",
+    "es6",
+    "modules"
+  ],
+  "activationCommands": {},
+  "repository": "https://github.com/tomkis1/js-autoimport",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "acorn-jsx": "^1.0.1",
+    "lodash": "^3.9.3",
+    "path": "^0.11.14",
+    "q": "^1.4.1",
+    "walk": "^2.3.9"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  }
+}
