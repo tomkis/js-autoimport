@@ -8,3 +8,8 @@
 * It's now possible to use default exports in conjunction with named exports, results in `import foo, {bar} from './foo.js'`
 * It's possible to set ignored folders and allowed suffixes in settings
 * Fixed bug when export index was not loaded properly after start, if the name of the project was same as any of ignored folders
+
+## 0.4.0 - Supporting full ECMA6 import/export spec
+* Supporting named exports
+* Supporting namespace exports
+* Supporting file imports
