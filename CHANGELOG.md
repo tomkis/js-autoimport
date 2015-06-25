@@ -13,3 +13,7 @@
 * Supporting named exports
 * Supporting namespace exports
 * Supporting file imports
+
+## 0.5.0 - Configurable trailing semicolon and space between braces
+* Trailing semicolon for import formatting is now configurable
+* Space between braces is now configurable `import {a} from` vs `import { a } from`
