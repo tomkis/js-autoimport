@@ -1,7 +1,7 @@
 {
   "name": "js-autoimport",
   "main": "./lib/main",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "atom autocomplete-plus provider which allows automatic ES6 modules",
   "keywords": [
     "javascript",
