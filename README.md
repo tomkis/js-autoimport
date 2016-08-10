@@ -24,8 +24,8 @@ added to currently opened file after confirming.
 - Entire file import
   - `import './foo.js'`
 - Alias imports
-  - `import Foo as Bar from './foo.js'`
-- Asterisk imports
+  - `import { Foo as Bar } from './foo.js'`
+- Namespace imports
   - `import * as Foo from './foo.js'`
 
 ## Contribute
