@@ -1,5 +1,7 @@
 # js-autoimport
 
+### This project is depracated, please use TypeScript or Flow with proper plugins instead.
+
 Autocomplete+ provider which displays suggestions based on ES6 exports / imports.
 
 ![js-autoimport](http://g.recordit.co/6AjljFaymk.gif)
